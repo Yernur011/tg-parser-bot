@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+bot:
+  name: silk_olx_parser_bot
+  token: 6360367348:AAEBoty2Ug9xAKOjbD1ySlgP3fAOcLBrH4Y
+
+io:
+  reflectoring:
+    kafka:
+      bootstrap-servers: localhost:9092
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: myGroup
